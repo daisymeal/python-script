@@ -1,6 +1,5 @@
 #! /usr/bin/env python3
 import sys, urllib.request
-url = input("your url: ")
-lraw = urllib.request.urlopen(url).read( )
+lraw = urllib.request.urlopen(input("")).read( )
 ltext =lraw.decode( )
 print(ltext)
